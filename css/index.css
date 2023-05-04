@@ -98,7 +98,7 @@ h2 {
 }
 #connect li {
     padding: 5pt;
-    margin: 5pt;
+    margin: 10pt;
     border-radius: 10pt;
     max-width: fit-content;
     background-color: rgb(197, 233, 248);
@@ -106,7 +106,7 @@ h2 {
 }
 
 #connect {
-    max-width: 70%;
+    max-width: 40%;
 }
 
 #connect ul {
@@ -230,6 +230,12 @@ button:hover {
     body{
     font-size: 20pt;
     } 
+    .nav-list{
+        float:right;
+        display:block;
+        padding: 5pt;
+        text-align:center; 
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -249,6 +255,13 @@ button:hover {
     #experience ul{
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .nav-list{
+        float:right;
+        display:block;
+        padding: 5pt;
+        text-align:center; 
     }
     #projects ul{
         display: flex;
@@ -270,6 +283,16 @@ button:hover {
         flex-direction: column;
         justify-content: space-around;
     }
+    .nav-item {
+        font-size: large;
+        max-width: fit-content;
+       
+    }
+    .nav-list{
+        float:right;
+        display:block;
+    }
+    
     
 }
 footer {
